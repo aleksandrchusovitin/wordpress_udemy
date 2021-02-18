@@ -12,7 +12,7 @@
 
 /* ?PROMO SECTION */
 .promo {
-  padding: 39px 0px 62px 0px;
+  padding: 38px 0px 61px 0px;
   min-height: 800px;
   background: url("../img/main_bg.jpg") center center/cover no-repeat;
 }
@@ -28,7 +28,6 @@
   font-family: Roboto;
   font-size: 15px;
   font-weight: 500;
-  line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -91,7 +90,7 @@
   cursor: pointer;
   outline: none;
   margin: 0px auto;
-  margin-top: 69px;
+  margin-top: 72px;
 
   box-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.21);
   font-family: RobotoCondensed;
@@ -117,8 +116,65 @@
 .promo-more .promo-more_icon {
   display: block;
   margin: 0px auto;
-  margin-top: 13px;
+  margin-top: 5px;
   cursor: pointer;
 }
 
 /* ?Waiting section */
+
+.waiting {
+  min-height: 607px;
+  background: #efefef;
+  padding: 88px 0px 75px 0px;
+}
+
+.waiting-header .waiting-header_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.waiting-header .waiting-header_divider {
+  width: 220px;
+  height: 7px;
+  background: #f9bf3b;
+  margin: 0px auto;
+  margin-top: 18px;
+}
+
+.waiting-header .waiting-header_description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 19px;
+}
+
+.waiting-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+  list-style: none;
+}
+
+.waiting-list .waiting-list_item {
+  width: 342px;
+}
+
+.waiting-item_desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+  text-align: center;
+  margin-top: 26px;
+}
